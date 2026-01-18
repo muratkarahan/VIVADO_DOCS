@@ -1,0 +1,922 @@
+====================================================================================================
+XILINX VIVADO IP CORE'LAR - DETAYLI LİSTE
+====================================================================================================
+
+Toplam IP Core: 597
+Örnek içeren IP Core: 46
+HDL dosyası olan IP Core: 448
+
+====================================================================================================
+ÖRNEK İÇEREN IP CORE'LAR
+====================================================================================================
+
+
+adc_dac_if_v1_0
+--------------------------------------------------------------------------------
+Example dizinler: 1
+HDL dosyaları: 4
+
+Örnek dosyalar:
+  • C:\Xilinx\2025.1\Vivado\data\ip\xilinx\adc_dac_if_v1_0\example_tb\example_rx_app_tb.sv
+  • C:\Xilinx\2025.1\Vivado\data\ip\xilinx\adc_dac_if_v1_0\example_tb\example_tx_app_tb.sv
+  • C:\Xilinx\2025.1\Vivado\data\ip\xilinx\adc_dac_if_v1_0\example_tb\prbs_gen.sv
+  • C:\Xilinx\2025.1\Vivado\data\ip\xilinx\adc_dac_if_v1_0\example_tb\setup_hold_checks.sv
+
+
+ahblite_axi_bridge_v3_0
+--------------------------------------------------------------------------------
+Example dizinler: 1
+HDL dosyaları: 0
+
+
+axi_ahblite_bridge_v3_0
+--------------------------------------------------------------------------------
+Example dizinler: 1
+HDL dosyaları: 0
+
+
+axi_apb_bridge_v3_0
+--------------------------------------------------------------------------------
+Example dizinler: 1
+HDL dosyaları: 0
+
+
+axi_cdma_v4_1
+--------------------------------------------------------------------------------
+Example dizinler: 1
+HDL dosyaları: 0
+
+
+axi_datamover_v5_1
+--------------------------------------------------------------------------------
+Example dizinler: 1
+HDL dosyaları: 0
+
+
+axi_dma_v7_1
+--------------------------------------------------------------------------------
+Example dizinler: 1
+HDL dosyaları: 0
+
+
+axi_epc_v2_0
+--------------------------------------------------------------------------------
+Example dizinler: 1
+HDL dosyaları: 0
+
+
+axi_ethernet_v7_2
+--------------------------------------------------------------------------------
+Example dizinler: 2
+HDL dosyaları: 0
+
+
+axi_gpio_v2_0
+--------------------------------------------------------------------------------
+Example dizinler: 1
+HDL dosyaları: 0
+
+
+axi_hbicap_v1_0
+--------------------------------------------------------------------------------
+Example dizinler: 1
+HDL dosyaları: 0
+
+
+axi_hwicap_v3_0
+--------------------------------------------------------------------------------
+Example dizinler: 1
+HDL dosyaları: 0
+
+
+axi_iic_v2_1
+--------------------------------------------------------------------------------
+Example dizinler: 1
+HDL dosyaları: 0
+
+
+axi_mcdma_v1_2
+--------------------------------------------------------------------------------
+Example dizinler: 1
+HDL dosyaları: 0
+
+
+axi_tft_v2_0
+--------------------------------------------------------------------------------
+Example dizinler: 1
+HDL dosyaları: 0
+
+
+axi_timebase_wdt_v3_0
+--------------------------------------------------------------------------------
+Example dizinler: 1
+HDL dosyaları: 0
+
+
+axi_timer_v2_0
+--------------------------------------------------------------------------------
+Example dizinler: 1
+HDL dosyaları: 0
+
+
+axi_uart16550_v2_0
+--------------------------------------------------------------------------------
+Example dizinler: 1
+HDL dosyaları: 0
+
+
+axi_uartlite_v2_0
+--------------------------------------------------------------------------------
+Example dizinler: 1
+HDL dosyaları: 0
+
+
+axi_usb2_device_v5_0
+--------------------------------------------------------------------------------
+Example dizinler: 1
+HDL dosyaları: 2
+
+Örnek dosyalar:
+  • C:\Xilinx\2025.1\Vivado\data\ip\xilinx\axi_usb2_device_v5_0\hdl\src\example\axi_usb2_device_v5_0_hsic_driver.v
+  • C:\Xilinx\2025.1\Vivado\data\ip\xilinx\axi_usb2_device_v5_0\hdl\src\example\axi_usb2_device_v5_0_ulpi_driver.v
+
+
+axi_vdma_v6_3
+--------------------------------------------------------------------------------
+Example dizinler: 1
+HDL dosyaları: 0
+
+
+cam_v4_0
+--------------------------------------------------------------------------------
+Example dizinler: 2
+HDL dosyaları: 2
+
+Örnek dosyalar:
+  • C:\Xilinx\2025.1\Vivado\data\ip\xilinx\cam_v4_0\example_design\hdl\hwui.sv
+  • C:\Xilinx\2025.1\Vivado\data\ip\xilinx\cam_v4_0\example_design\hdl\lookup_interface.sv
+
+
+cdcam_v1_3
+--------------------------------------------------------------------------------
+Example dizinler: 2
+HDL dosyaları: 1
+
+Örnek dosyalar:
+  • C:\Xilinx\2025.1\Vivado\data\ip\xilinx\cdcam_v1_3\example_design\hdl\lookup_interface.sv
+
+
+cms_subsystem_v4_0
+--------------------------------------------------------------------------------
+Example dizinler: 1
+HDL dosyaları: 0
+
+
+ddr4_pl_v1_0
+--------------------------------------------------------------------------------
+Example dizinler: 1
+HDL dosyaları: 4
+
+Örnek dosyalar:
+  • C:\Xilinx\2025.1\Vivado\data\ip\xilinx\ddr4_pl_v1_0\hdl\example_top_files\self_refresh_fsm.v
+  • C:\Xilinx\2025.1\Vivado\data\ip\xilinx\ddr4_pl_v1_0\tb\example_tb_phy.sv
+  • C:\Xilinx\2025.1\Vivado\data\ip\xilinx\ddr4_pl_v1_0\tb\example_tb_phy_pingpong.sv
+  • C:\Xilinx\2025.1\Vivado\data\ip\xilinx\ddr4_pl_v1_0\hdl\example_top_files\blk_mem_gen_0.sv
+
+
+gig_ethernet_pcs_pma_v16_2
+--------------------------------------------------------------------------------
+Example dizinler: 2
+HDL dosyaları: 0
+
+
+jesd204c_v4_3
+--------------------------------------------------------------------------------
+Example dizinler: 1
+HDL dosyaları: 0
+
+
+ldpc_v2_0
+--------------------------------------------------------------------------------
+Example dizinler: 1
+HDL dosyaları: 0
+
+
+mpram_v1_0
+--------------------------------------------------------------------------------
+Example dizinler: 1
+HDL dosyaları: 0
+
+
+nvme_tc_v3_0
+--------------------------------------------------------------------------------
+Example dizinler: 1
+HDL dosyaları: 1
+
+Örnek dosyalar:
+  • C:\Xilinx\2025.1\Vivado\data\ip\xilinx\nvme_tc_v3_0\hdl\example\nvme_tc_v3_0_c2h_crc_chk.sv
+
+
+oran_radio_if_v3_2
+--------------------------------------------------------------------------------
+Example dizinler: 1
+HDL dosyaları: 0
+
+
+polar_v1_1
+--------------------------------------------------------------------------------
+Example dizinler: 1
+HDL dosyaları: 0
+
+
+roe_framer_v3_0
+--------------------------------------------------------------------------------
+Example dizinler: 1
+HDL dosyaları: 0
+
+
+sd_fec_v1_1
+--------------------------------------------------------------------------------
+Example dizinler: 1
+HDL dosyaları: 0
+
+
+srio_gen2_v4_1
+--------------------------------------------------------------------------------
+Example dizinler: 1
+HDL dosyaları: 0
+
+
+ten_gig_eth_mac_v15_1
+--------------------------------------------------------------------------------
+Example dizinler: 3
+HDL dosyaları: 0
+
+
+tri_mode_ethernet_mac_v9_0
+--------------------------------------------------------------------------------
+Example dizinler: 3
+HDL dosyaları: 0
+
+
+tsn_endpoint_ethernet_mac_block_v2_0
+--------------------------------------------------------------------------------
+Example dizinler: 1
+HDL dosyaları: 0
+
+
+tsn_endpoint_ethernet_mac_v3_0
+--------------------------------------------------------------------------------
+Example dizinler: 1
+HDL dosyaları: 1
+
+Örnek dosyalar:
+  • C:\Xilinx\2025.1\Vivado\data\ip\xilinx\tsn_endpoint_ethernet_mac_v3_0\ttcl\example_design\GLBL_VHD.vhd
+
+
+tsn_temac_v1_1
+--------------------------------------------------------------------------------
+Example dizinler: 3
+HDL dosyaları: 0
+
+
+usp_rf_data_converter_v2_6
+--------------------------------------------------------------------------------
+Example dizinler: 1
+HDL dosyaları: 0
+
+
+v_smpte_uhdsdi_v1_0
+--------------------------------------------------------------------------------
+Example dizinler: 1
+HDL dosyaları: 0
+
+
+versal_ldpc_v1_0
+--------------------------------------------------------------------------------
+Example dizinler: 1
+HDL dosyaları: 1
+
+Örnek dosyalar:
+  • C:\Xilinx\2025.1\Vivado\data\ip\xilinx\versal_ldpc_v1_0\example\stimulus_gen_stub.sv
+
+
+vrf_channelizer_v1_1
+--------------------------------------------------------------------------------
+Example dizinler: 1
+HDL dosyaları: 0
+
+
+vrf_data_converter_v1_1
+--------------------------------------------------------------------------------
+Example dizinler: 1
+HDL dosyaları: 0
+
+
+vrf_fft_v1_1
+--------------------------------------------------------------------------------
+Example dizinler: 1
+HDL dosyaları: 0
+
+
+====================================================================================================
+TÜM IP CORE'LAR (Alfabetik)
+====================================================================================================
+
+accelerator_monitor_v1_1
+adc_dac_if_phy_v1_0
+adc_dac_if_v1_0
+advanced_io_wizard_phy_v1_0
+advanced_io_wizard_phy_v1_1
+advanced_io_wizard_v1_0
+advanced_io_wizard_v1_1
+ahblite_axi_bridge_v3_0
+ai_engine_v2_0
+ai_noc_v1_0
+ai_pl_trig_v1_0
+ai_pl_v1_0
+amm_axi_bridge_v1_0
+an_lt_v1_0
+anlt_subcore_ip_v1_0
+ats_switch_v1_0
+aud_pat_gen_v1_0
+audio_clock_recovery_unit_v1_0
+audio_formatter_v1_0
+audio_tpg_v1_0
+aurora_64b66b_v13_0
+aurora_8b10b_v11_1
+av_pat_gen_v2_0
+axi4stream_vip_v1_1
+axi4svideo_bridge_v1_0
+axi_10g_ethernet_v3_1
+axi_ahblite_bridge_v3_0
+axi_amm_bridge_v1_0
+axi_apb_bridge_v3_0
+axi_bram_ctrl_v4_0
+axi_bram_ctrl_v4_1
+axi_cdma_v4_1
+axi_chip2chip_v5_0
+axi_clock_converter_v2_1
+axi_crossbar_v2_1
+axi_data_fifo_v2_1
+axi_datamover_v5_1
+axi_dbg_hub_v2_0
+axi_dma_v7_1
+axi_dwidth_converter_v2_1
+axi_emc_v3_0
+axi_epc_v2_0
+axi_epu_v1_0
+axi_ethernet_buffer_v2_0
+axi_ethernet_v7_2
+axi_ethernetlite_v3_0
+axi_fifo_mm_s_v4_3
+axi_firewall_v1_2
+axi_gpio_v2_0
+axi_hbicap_v1_0
+axi_hwicap_v3_0
+axi_i3c_v1_0
+axi_iic_v2_1
+axi_infrastructure_v1_1
+axi_intc_v4_1
+axi_interconnect_v1_7
+axi_interconnect_v2_1
+axi_interface_monitor_v1_1
+axi_jtag_v1_0
+axi_lite_ipif_v3_0
+axi_lmb_bridge_v1_0
+axi_mcdma_v1_2
+axi_memory_init_v1_0
+axi_mm2s_mapper_v1_1
+axi_mmu_v2_1
+axi_noc2_v1_1
+axi_noc_v1_1
+axi_pcie3_v3_0
+axi_pcie_v2_9
+axi_perf_mon_v5_0
+axi_pmon_v1_0
+axi_protocol_checker_v2_0
+axi_protocol_converter_v2_1
+axi_quad_spi_v3_2
+axi_register_slice_v2_1
+axi_remapper_rx_v1_0
+axi_remapper_tx_v1_0
+axi_sg_v4_1
+axi_sideband_util_v1_0
+axi_stream_monitor_v1_1
+axi_switch_v1_0
+axi_tft_v2_0
+axi_timebase_wdt_v3_0
+axi_timer_v2_0
+axi_traffic_gen_v3_0
+axi_uart16550_v2_0
+axi_uartlite_v2_0
+axi_usb2_device_v5_0
+axi_utils_v2_0
+axi_vdma_v6_3
+axi_vfifo_ctrl_v2_0
+axi_vip_v1_1
+axis_accelerator_adapter_v2_1
+axis_broadcaster_v1_1
+axis_cap_ctrl_v1_0
+axis_clock_converter_v1_1
+axis_combiner_v1_1
+axis_data_fifo_v1_1
+axis_data_fifo_v2_0
+axis_dbg_stub_v1_0
+axis_dbg_sync_v1_0
+axis_dwidth_converter_v1_1
+axis_ila_adv_trig_v1_0
+axis_ila_ct_v1_0
+axis_ila_intf_v1_0
+axis_ila_pp_v1_0
+axis_ila_txns_cntr_v1_0
+axis_ila_v1_1
+axis_ila_v1_2
+axis_ila_v1_3
+axis_infrastructure_v1_1
+axis_interconnect_v1_1
+axis_interconnect_v2_1
+axis_itct_v1_0
+axis_mem_v1_0
+axis_mu_v1_0
+axis_protocol_checker_v2_0
+axis_register_slice_v1_1
+axis_subset_converter_v1_1
+axis_switch_v1_1
+axis_vio_v1_0
+blk_mem_gen_v8_3
+blk_mem_gen_v8_4
+bs_mux_v1_0
+bs_switch_v1_0
+bscan_axi_v1_0
+bscan_jtag_v1_0
+bsip_v1_1
+bufg_gt_v1_0
+c_accum_v12_0
+c_addsub_v12_0
+c_compare_v12_0
+c_counter_binary_v12_0
+c_reg_fd_v12_0
+c_shift_ram_v12_0
+cam_blk_lib_v1_3
+cam_v4_0
+can_v5_1
+canfd_v3_0
+cdcam_v1_3
+cic_compiler_v4_0
+clk_gen_sim_v1_0
+clk_vip_v1_0
+clk_wiz_v5_4
+clk_wiz_v6_0
+clk_wizard_v1_0
+clkx5_wiz_v1_0
+cmac_usplus_v3_1
+cmac_v2_6
+cmpy_v6_0
+cms_subsystem_v4_0
+convolution_v9_0
+cordic_v6_0
+cpm4_v1_0
+cpm5_v1_0
+cpm5n_v1_0
+cpm6_v1_0
+cpri_v8_12
+dbg_intf_v1_0
+dcmac_v3_0
+ddr3_phy_v1_0
+ddr3_phy_v1_1
+ddr3_phy_v1_2
+ddr3_phy_v1_3
+ddr3_phy_v1_4
+ddr3_v1_4
+ddr4_phy_v1_0
+ddr4_phy_v1_1
+ddr4_phy_v2_0
+ddr4_phy_v2_1
+ddr4_phy_v2_2
+ddr4_pl_phy_v1_0
+ddr4_pl_v1_0
+ddr4_v2_2
+ddr_responder_v1_0
+ddrmc5_responder_v1_0
+dds_compiler_v6_0
+debug_bridge_v3_0
+dft_v4_2
+dfx_axi_shutdown_manager_v1_0
+dfx_bitstream_monitor_v1_0
+dfx_controller_v1_0
+dfx_decoupler_v1_0
+displayport_v7_0
+displayport_v8_1
+displayport_v9_0
+dist_mem_gen_v8_0
+div_gen_v5_1
+dp_rx_subsystem_v2_1
+dp_tx_subsystem_v2_1
+dp_videoaxi4s_bridge_v1_0
+dprx_fec_8b10b_v1_0
+dprx_v1_0
+dptx_v1_0
+dsp_macro_v1_0
+ecc_v2_0
+emb_fifo_gen_v1_0
+emb_mem_gen_v1_0
+ernic_v4_2
+ethernet_1_10_25g_v2_7
+ethernet_offload_v1_0
+fast_adapter_v1_0
+fc32_rs_fec_v1_0
+fec_5g_common_v1_1
+fifo_generator_v13_0
+fifo_generator_v13_1
+fifo_generator_v13_2
+fir_compiler_v7_2
+fit_timer_v2_0
+flexo_100g_rs_fec_v1_0
+floating_point_v7_0
+floating_point_v7_1
+ft_prach_v1_2
+g709_fec_v2_4
+g975_efec_i4_v1_0
+g975_efec_i7_v2_0
+generic_baseblocks_v2_1
+gig_ethernet_pcs_pma_v16_2
+gigantic_mux_v1_0
+gmii_to_rgmii_v4_1
+gt_bridge_ip_v1_1
+gt_optport_ip_v1_0
+gt_quad_base_v1_1
+gt_reset_ip_v1_1
+gt_subcore_ip_v1_0
+gtfwizard_v1_0
+gtm_cntrl_v1_0
+gtm_wizard_ultrascale_v1_0
+gtwiz_versal_v1_0
+gtwizard_ultrascale_v1_5
+gtwizard_ultrascale_v1_6
+gtwizard_ultrascale_v1_7
+gtwizard_v3_6
+hbm_memory_subsystem_v2_0
+hbm_phyio_control_v1_0
+hbm_v1_0
+hdcp22_cipher_dp_v1_0
+hdcp22_cipher_v1_0
+hdcp22_mmult_v1_0
+hdcp22_rng_v1_0
+hdcp22_rx_dp_v1_0
+hdcp22_rx_v1_0
+hdcp22_tx_dp_v1_0
+hdcp22_tx_v1_0
+hdcp_keymngmt_blk_v1_0
+hdcp_v1_0
+hdmi_acr_ctrl_v1_0
+hdmi_gt_controller_v1_0
+hdmi_gt_controller_v2_0
+high_speed_selectio_wiz_v3_6
+hnicx_wizard_v1_0
+hsdp_trace_v2_0
+hw_trace_v1_0
+i2s_receiver_v1_0
+i2s_transmitter_v1_0
+ibert_7series_gth_v3_0
+ibert_7series_gtp_v3_0
+ibert_7series_gtx_v3_0
+ibert_7series_gtz_v3_1
+ibert_lib_v1_0
+ibert_ultrascale_gtf_v1_0
+ibert_ultrascale_gth_v1_4
+ibert_ultrascale_gtm_v1_0
+ibert_ultrascale_gty_v1_3
+icap_arb_v1_0
+ieee802d3_200g_rs_fec_v2_0
+ieee802d3_25g_rs_fec_v1_0
+ieee802d3_400g_rs_fec_v3_0
+ieee802d3_50g_rs_fec_v2_0
+ieee802d3_800g_rs_fec_v1_0
+ieee802d3_clause74_fec_v1_0
+ieee802d3_rs_fec_v2_0
+ifx_util_v1_1
+ila_v6_2
+ilknf_v1_3
+in_system_ibert_v1_0
+interlaken_v2_4
+interrupt_control_v3_1
+iomodule_v3_1
+jesd204_phy_v4_1
+jesd204c_v4_3
+jtag_axi_v1_2
+l_ethernet_v3_3
+ldpc_v2_0
+lmb_bram_if_cntlr_v4_0
+lmb_v10_v3_0
+lpddr3_phy_v1_0
+lpddr3_v1_0
+lpddrmc_phy_v1_0
+lpddrmc_v1_0
+lte_fft_v2_1
+ltlib_v1_0
+lut_buffer_v2_0
+mailbox_v2_1
+mammoth_transcode_v1_0
+mdm_riscv_v1_0
+mdm_v3_2
+mem_pl_v1_0
+mem_tg_v1_0
+mem_v1_0
+mem_v1_1
+mem_v1_2
+mem_v1_3
+mem_v1_4
+microblaze_mcs_riscv_v1_0
+microblaze_mcs_v2_3
+microblaze_mcs_v3_0
+microblaze_riscv_v1_0
+microblaze_v11_0
+microblaze_v9_5
+mig_7series_v4_2
+mig_ddrx_phy_v1_2
+mig_qdriip_phy_v1_2
+mig_rld3_phy_v1_2
+mipi_csi2_rx_ctrl_v1_0
+mipi_csi2_rx_subsystem_v6_0
+mipi_csi2_tx_ctrl_v1_0
+mipi_csi2_tx_subsystem_v2_2
+mipi_dphy_v4_3
+mipi_dsi2_rx_ctrl_v1_0
+mipi_dsi2_rx_subsystem_v1_0
+mipi_dsi_tx_ctrl_v1_0
+mipi_dsi_tx_subsystem_v2_3
+mipi_dsi_tx_subsystem_v3_0
+mipi_rx_phy_v1_0
+mipi_tx_phy_v1_0
+mmi_v1_0
+mpram_v1_0
+mrmac_v3_1
+mult_gen_v12_0
+multi_channel_25g_rs_fec_v1_0
+mutex_v2_1
+noc2_nmu_sim_v1_0
+noc2_nmu_v1_0
+noc2_nps6x_v1_0
+noc2_nps_v1_0
+noc2_nsu_sim_v1_0
+noc2_nsu_v1_0
+noc2_xbr2x4_v1_0
+noc2_xbr4x2_v1_0
+noc_hbm_nmu_sim_v1_0
+noc_hbm_responder_v1_0
+noc_hbm_subcore_v1_0
+noc_hbm_v1_0
+noc_mc_ddr4_phy_v1_0
+noc_mc_ddr4_v1_0
+noc_mc_ddr5_phy_v1_0
+noc_mc_ddr5_subcore_v1_0
+noc_mc_ddr5_subcore_v1_1
+noc_mc_ddr5_v1_0
+noc_mux_v1_0
+noc_na_v1_0
+noc_ncrb_v1_0
+noc_nidb_v1_0
+noc_nmu_sim_v1_0
+noc_nmu_v1_0
+noc_npp_rptr_v1_0
+noc_nps4_v1_0
+noc_nps6_v1_0
+noc_nps_v1_0
+noc_nsu_sim_v1_0
+noc_nsu_v1_0
+noc_nsw_v1_0
+nvme_tc_v3_0
+nvmeha_v1_0
+oddr_v1_0
+oran_radio_if_v3_2
+parallel_fft_v1_0
+pc_cfr_v8_0
+pci32_v5_0
+pci64_v5_0
+pcie3_7x_v4_3
+pcie3_ultrascale_v4_4
+pcie4_uscale_plus_v1_3
+pcie4c_uscale_plus_v1_0
+pcie4ce_uscale_plus_v1_0
+pcie_7x_v3_3
+pcie_jtag_v1_0
+pcie_phy_v1_0
+pcie_phy_versal_v1_1
+pcie_qdma_mailbox_v1_0
+pcie_versal_v1_1
+perf_axi_tg_v1_0
+picxo_fracxo_v2_0
+pmcbridge_v1_0
+polar_v1_1
+pr_decoupler_v1_0
+prbs_generator_checker_v1_0
+proc_sys_reset_v5_0
+processing_system7_v5_5
+processing_system7_vip_v1_0
+ps11_vip_v1_0
+psdpdc_av_pat_gen_v2_0
+psdpdc_i2s_transmitter_v1_0
+psx_vip_v1_0
+ptp_1588_timer_syncer_v2_0
+qdma_v5_1
+qdriip_phy_v1_0
+qdriip_phy_v1_1
+qdriip_phy_v1_2
+qdriip_phy_v1_3
+qdriip_phy_v1_4
+qdriip_v1_4
+qdriv_phy_v1_0
+qdriv_phy_v1_1
+qdriv_phy_v1_2
+qdriv_phy_v2_0
+qdriv_pl_phy_v1_0
+qdriv_pl_v1_0
+qdriv_v2_0
+quadsgmii_v3_5
+rama_v1_1
+rfadce5_wrapper_v1_0
+rfdace5_wrapper_v1_0
+rld3_phy_v1_0
+rld3_phy_v1_1
+rld3_phy_v1_2
+rld3_phy_v1_3
+rld3_phy_v1_4
+rld3_pl_phy_v1_0
+rld3_pl_v1_0
+rld3_v1_4
+roe_framer_v3_0
+rs_decoder_v9_0
+rs_encoder_v9_0
+rs_toolbox_v9_0
+rst_vip_v1_0
+rtl_kernel_wizard_v1_0
+sc_axi2sc_v1_0
+sc_exit_v1_0
+sc_mmu_v1_0
+sc_noc_entry_bridge_v1_0
+sc_noc_exit_bridge_v1_0
+sc_noc_router_v1_0
+sc_node_v1_0
+sc_sc2axi_v1_0
+sc_si_converter_v1_0
+sc_switchboard_v1_0
+sc_transaction_regulator_v1_0
+sc_util_v1_0
+sd_fec_v1_1
+sdx_memory_subsystem_v1_0
+sdx_stream_subsystem_v1_0
+selectio_wiz_v5_1
+sem_ultra_v3_1
+sem_v4_1
+shell_utils_addr_remap_v1_0
+shell_utils_build_info_v2_0
+shell_utils_msp432_bsl_crc_gen_v1_0
+sid_v8_0
+sim_clk_gen_v1_0
+sim_trig_v1_0
+smartconnect_v1_0
+soft_ecc_proxy_v1_1
+spdif_v2_0
+srio_gen2_v4_1
+stma_v1_0
+switch_core_top_v2_0
+sync_ip_v1_0
+system_cache_v5_0
+system_ila_v1_1
+system_management_wiz_v1_3
+ta_dma_v1_0
+tcc_decoder_3gppmm_v2_0
+tcc_encoder_3gpp_v5_0
+tcc_encoder_3gpplte_v4_0
+ten_gig_eth_mac_v15_1
+ten_gig_eth_pcs_pma_v6_0
+timer_sync_1588_v1_2
+tmr_comparator_v1_0
+tmr_inject_v1_0
+tmr_manager_v1_0
+tmr_sem_v1_0
+tmr_voter_v1_0
+trace_hub_v1_1
+trace_s2mm_v2_0
+tri_mode_ethernet_mac_v9_0
+tsn_endpoint_ethernet_mac_block_v2_0
+tsn_endpoint_ethernet_mac_v3_0
+tsn_temac_v1_1
+uhdsdi_gt_v2_1
+uhdsdi_gt_v2_2
+uram_rd_back_v1_0
+usp_rf_data_converter_v2_6
+usxgmii_v2_0
+util_ds_buf_v2_2
+util_ff_v1_0
+util_idelay_ctrl_v1_0
+util_reduced_logic_v2_0
+util_vector_logic_v2_0
+v_axi4s_remap_v1_1
+v_axi4s_vid_out_v4_0
+v_csc_v1_1
+v_deinterlacer_v5_1
+v_demosaic_v1_1
+v_dp_axi4s_vid_out_v1_0
+v_dp_rxss1_v3_1
+v_dp_rxss2_v1_0
+v_dp_txss1_v3_1
+v_dp_txss2_v1_0
+v_dual_splitter_v1_0
+v_frmbuf_rd_v2_2
+v_frmbuf_rd_v2_4
+v_frmbuf_rd_v2_5
+v_frmbuf_rd_v3_0
+v_frmbuf_wr_v2_2
+v_frmbuf_wr_v2_5
+v_frmbuf_wr_v3_0
+v_gamma_lut_v1_1
+v_hcresampler_v1_1
+v_hdmi_phy1_v1_0
+v_hdmi_rx1_v1_0
+v_hdmi_rx_ss_v3_2
+v_hdmi_rx_v3_0
+v_hdmi_rxss1_v1_2
+v_hdmi_tx1_v1_0
+v_hdmi_tx_ss_v3_2
+v_hdmi_tx_v3_0
+v_hdmi_txss1_v1_2
+v_hscaler_v1_1
+v_letterbox_v1_1
+v_mix_v5_2
+v_mix_v5_3
+v_multi_scaler_v1_2
+v_proc_ss_v2_3
+v_scenechange_v1_1
+v_sdi_rx_vid_bridge_v2_0
+v_smpte_sdi_v3_0
+v_smpte_uhdsdi_rx_ss_v2_0
+v_smpte_uhdsdi_rx_v1_0
+v_smpte_uhdsdi_tx_ss_v2_0
+v_smpte_uhdsdi_tx_v1_0
+v_smpte_uhdsdi_v1_0
+v_tc_v6_1
+v_tc_v6_2
+v_tpg_v8_0
+v_tpg_v8_1
+v_tpg_v8_2
+v_uhdsdi_audio_v2_0
+v_uhdsdi_vidgen_v1_0
+v_vcresampler_v1_1
+v_vid_gt_bridge_v2_0
+v_vid_gt_bridge_v3_0
+v_vid_in_axi4s_v4_0
+v_vid_in_axi4s_v5_0
+v_vid_sdi_tx_bridge_v2_0
+v_vscaler_v1_1
+v_warp_filter_v1_1
+v_warp_init_v1_1
+vcu2_v2_0
+vcu_ddr4_controller_v1_1
+vcu_v1_2
+vdu_v2_0
+versal_cips_ps_vip_v1_0
+versal_ldpc_v1_0
+vfb_v1_0
+vid_edid_v1_0
+vid_phy_controller_v2_2
+video_cke_sync_v1_0
+video_frame_crc_v1_0
+videoaxi4s_bridge_v1_0
+vio_v3_0
+visp_ss_v1_0
+visp_v1_0
+viterbi_v9_1
+vitis_deadlock_detector_v1_0
+vrf_channelizer_v1_1
+vrf_data_converter_v1_1
+vrf_fft_v1_1
+x5io_wizard_phy_v1_0
+x5io_wizard_v1_0
+xadc_wiz_v3_3
+xbip_dsp48_wrapper_v3_0
+xbip_multadd_v3_0
+xbip_pipe_v3_0
+xbip_utils_v3_0
+xdfe_cc_filter_v1_1
+xdfe_cc_mixer_v2_0
+xdfe_common_v1_0
+xdfe_equalizer_v1_0
+xdfe_fft_v1_0
+xdfe_nlf_v1_1
+xdfe_nr_prach_v2_0
+xdfe_ofdm_v2_2
+xdfe_resampler_v1_0
+xdma_v4_2
+xfft_v9_1
+xlconcat_v2_1
+xlconstant_v1_1
+xlslice_v1_0
+xpm_cdc_gen_v1_0
+xsdbm_v3_0
+xsdbs_v1_0
+xxv_ethernet_v5_0
+zynq_ultra_ps_e_v3_3
+zynq_ultra_ps_e_v3_5
+zynq_ultra_ps_e_vip_v1_0

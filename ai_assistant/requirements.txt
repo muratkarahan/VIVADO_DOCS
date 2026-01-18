@@ -1,0 +1,70 @@
+# Vivado FPGA Expert - Python Requirements
+
+# ====================
+# CORE DEPENDENCIES
+# ====================
+
+# OpenAI API (GPT-4, Embeddings)
+openai>=1.0.0
+
+# Vector Database
+chromadb>=0.4.0
+
+# Tokenization
+tiktoken>=0.5.0
+
+# Environment Variables
+python-dotenv>=1.0.0
+
+# ====================
+# DOCUMENT PROCESSING
+# ====================
+
+# PDF Processing
+PyPDF2>=3.0.0
+pypdf>=3.17.0
+
+# ====================
+# ADVANCED RAG (OPTIONAL)
+# ====================
+
+# LangChain Framework
+langchain>=0.1.0
+langchain-community>=0.0.10
+langchain-openai>=0.0.5
+
+# ====================
+# MCP SERVER (OPTIONAL)
+# ====================
+
+# Model Context Protocol
+mcp>=0.1.0
+
+# Anthropic Claude API
+anthropic>=0.18.0
+
+# ====================
+# UTILITIES
+# ====================
+
+# Progress bars
+tqdm>=4.65.0
+
+# Numpy (for embeddings)
+numpy>=1.24.0
+
+# JSON handling
+jsonschema>=4.17.0
+
+# ====================
+# DEVELOPMENT (OPTIONAL)
+# ====================
+
+# Jupyter for notebooks
+# jupyter>=1.0.0
+# ipykernel>=6.20.0
+
+# Testing
+# pytest>=7.2.0
+# pytest-cov>=4.0.0
+

@@ -1,0 +1,20 @@
+{
+  "duration_seconds": 875.657471,
+  "pdf_count": 35,
+  "md_count": 329,
+  "total_chunks": 1839,
+  "total_tokens": 1659982,
+  "embedding_cost": 0.1659982,
+  "sources": {
+    "xilinx_vivado": 20,
+    "xilinx_data": 4,
+    "docs_fpga": 5,
+    "ax7010_project": 21,
+    "z7lite_project": 10,
+    "z7nano_project": 10,
+    "unknown": 3,
+    "markdown_docs": 321,
+    "vivado_docs_workspace": 8
+  },
+  "timestamp": "2026-01-18T17:59:05.481810"
+}

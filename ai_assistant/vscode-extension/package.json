@@ -1,0 +1,124 @@
+{
+  "name": "vivado-fpga-expert",
+  "displayName": "Vivado FPGA Expert",
+  "description": "Xilinx Vivado Design Suite assistant with RAG system - AXI, Zynq, IP cores, TCL scripting",
+  "version": "1.0.0",
+  "publisher": "vivado-fpga",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "AI",
+    "Education",
+    "Programming Languages"
+  ],
+  "keywords": [
+    "Xilinx",
+    "Vivado",
+    "FPGA",
+    "Zynq",
+    "UltraScale",
+    "Verilog",
+    "VHDL",
+    "TCL",
+    "AI",
+    "RAG"
+  ],
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+    "chatParticipants": [
+      {
+        "id": "vivado-fpga-expert.chat",
+        "name": "vivado",
+        "description": "Xilinx Vivado Design Suite asistanı - AXI, Zynq, IP Integrator, TCL, Vitis HLS",
+        "isSticky": true,
+        "commands": [
+          {
+            "name": "search",
+            "description": "Vivado dökümanlarında ara (UG/PG)"
+          },
+          {
+            "name": "code",
+            "description": "Kod örneği al (Verilog, VHDL, TCL, C, HLS)"
+          },
+          {
+            "name": "explain",
+            "description": "IP veya kavramı açıkla"
+          },
+          {
+            "name": "debug",
+            "description": "Timing/implementation hata ayıklama"
+          }
+        ]
+      }
+    ],
+    "configuration": {
+      "title": "Vivado FPGA Expert",
+      "properties": {
+        "vivadoExpert.pythonPath": {
+          "type": "string",
+          "default": "python",
+          "description": "Python executable path"
+        },
+        "vivadoExpert.ragScriptPath": {
+          "type": "string",
+          "default": "${workspaceFolder}/ai_assistant/vivado_mcp_server.py",
+          "description": "RAG system script path"
+        },
+        "vivadoExpert.autoStart": {
+          "type": "boolean",
+          "default": true,
+          "description": "Auto-start RAG server on activation"
+        },
+        "vivadoExpert.vivadoVersion": {
+          "type": "string",
+          "default": "2023.2",
+          "description": "Vivado Design Suite version",
+          "enum": ["2022.2", "2023.1", "2023.2", "2024.1"]
+        },
+        "vivadoExpert.enableTCLSuggestions": {
+          "type": "boolean",
+          "default": true,
+          "description": "Enable TCL command suggestions"
+        }
+      }
+    },
+    "commands": [
+      {
+        "command": "vivadoExpert.startServer",
+        "title": "Start Vivado RAG Server",
+        "category": "Vivado Expert"
+      },
+      {
+        "command": "vivadoExpert.stopServer",
+        "title": "Stop Vivado RAG Server",
+        "category": "Vivado Expert"
+      },
+      {
+        "command": "vivadoExpert.restartServer",
+        "title": "Restart Vivado RAG Server",
+        "category": "Vivado Expert"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "node ./out/test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.85.0",
+    "@types/node": "20.x",
+    "@typescript-eslint/eslint-plugin": "^6.15.0",
+    "@typescript-eslint/parser": "^6.15.0",
+    "eslint": "^8.56.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "axios": "^1.6.0"
+  }
+}

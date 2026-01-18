@@ -1,0 +1,62 @@
+# .gitignore for VIVADO_DOCS
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.coverage
+
+# ChromaDB
+ai_assistant/vivado_vectordb/
+
+# OpenAI
+.env
+agent_info.json
+
+# VS Code
+.vscode/
+*.vsix
+
+# Node.js (Extension)
+ai_assistant/vscode-extension/node_modules/
+ai_assistant/vscode-extension/out/
+ai_assistant/vscode-extension/.vscode-test/
+ai_assistant/vscode-extension/package-lock.json
+
+# TypeScript
+*.tsbuildinfo
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Vivado project files (if any examples are added)
+*.jou
+*.log
+*.str
+*.xpr
+.Xil/
+vivado*.backup.*
+
+# Large PDF files (user downloads them separately)
+# Uncomment if PDFs are large and not in repo
+# official_docs/**/*.pdf
+
+# Temporary files
+*.tmp
+*.swp
+*~
