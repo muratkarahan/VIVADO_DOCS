@@ -1,0 +1,6 @@
+
+Example:
+    
+  # checks if messages exist
+  ::xilinx::junit::validate_messages "ValidateMessages"
+

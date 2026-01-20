@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<catalog>
+  <apps>
+    <app>
+      <revision_history>Bug Fixes</revision_history>
+      <name>questa_cdc</name>
+      <company>mentor</company>
+      <procs>
+        <proc>
+          <name>write_questa_autocheck_script</name>
+          <summary>This proc generates the Questa AutoCheck script file</summary>
+        </proc>
+        <proc>
+          <name>write_questa_cdc_script</name>
+          <summary>This proc generates the Questa CDC script file</summary>
+        </proc>
+        <proc>
+          <name>write_questa_lint_script</name>
+          <summary>This proc generates the Questa Lint script file</summary>
+        </proc>
+        <proc>
+          <name>write_questa_rdc_script</name>
+          <summary>This proc generates the Questa RDC script file</summary>
+        </proc>
+        <proc>
+          <name>write_questa_resetcheck_script</name>
+          <summary>This proc generates the Questa ResetCheck script file</summary>
+        </proc>
+      </procs>
+    </app>
+  </apps>
+</catalog>

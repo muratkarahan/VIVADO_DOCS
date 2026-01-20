@@ -1,0 +1,6 @@
+
+Example:
+    
+  # checks if DRC violations exist
+  ::xilinx::junit::validate_routing "ValidateRouting"
+

@@ -1,0 +1,6 @@
+
+Example:
+
+  # creates a new in-memory results object
+  set myResults [ ::xilinx::junit::new_results "uniqueResultsName" ]
+

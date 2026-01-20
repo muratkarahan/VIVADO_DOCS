@@ -1,0 +1,6 @@
+
+Example:
+    
+  # converts the graph node into XML
+  set xml [ ::xilinx::junit::node_to_xml graphName $node ]
+

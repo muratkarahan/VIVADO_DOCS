@@ -1,10 +1,12 @@
 {
-  "duration_seconds": 875.657471,
-  "pdf_count": 35,
-  "md_count": 329,
-  "total_chunks": 1839,
-  "total_tokens": 1659982,
-  "embedding_cost": 0.1659982,
+  "duration_seconds": 1335.686228,
+  "pdf_count": 37,
+  "md_count": 435,
+  "verilog_count": 99,
+  "vhdl_count": 2,
+  "total_chunks": 2912,
+  "total_tokens": 2543554,
+  "embedding_cost": 0.2543554,
   "sources": {
     "xilinx_vivado": 20,
     "xilinx_data": 4,
@@ -13,8 +15,10 @@
     "z7lite_project": 10,
     "z7nano_project": 10,
     "unknown": 3,
+    "vivado_docs_workspace": 116,
     "markdown_docs": 321,
-    "vivado_docs_workspace": 8
+    "vivado_verilog_templates": 99,
+    "vivado_vhdl_templates": 2
   },
-  "timestamp": "2026-01-18T17:59:05.481810"
+  "timestamp": "2026-01-18T21:06:34.577982"
 }

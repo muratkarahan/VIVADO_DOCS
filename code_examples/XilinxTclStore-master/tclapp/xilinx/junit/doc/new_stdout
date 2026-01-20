@@ -1,0 +1,6 @@
+
+Example:
+    
+  # creates a new stdout node under the testsuite node
+  ::xilinx::junit::new_stdout $results $testsuite "STDOUT content"
+

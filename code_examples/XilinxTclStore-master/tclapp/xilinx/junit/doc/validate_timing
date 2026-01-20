@@ -1,0 +1,7 @@
+
+Example:
+    
+  # checks if timing violations exist
+  ::xilinx::junit::validate_timing "ValidateTiming"
+
+

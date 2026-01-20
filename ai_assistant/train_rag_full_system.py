@@ -41,7 +41,9 @@ class FullSystemRAGTrainer:
         "C:/Users/murat/Documents/GitHub/z7nano_fpga",
         "C:/Users/murat/Documents/GitHub/coraz7_fpga",
         "C:/Users/murat/Documents/GitHub/nexsys_fpga",
-        "C:/Users/murat/Documents/GitHub/VIVADO_DOCS",
+        "C:/Users/murat/Documents/GitHub/VIVADO_DOCS/code_examples",
+        "C:/Users/murat/Documents/GitHub/VIVADO_DOCS/vivado-examples",
+        "C:/Users/murat/Documents/GitHub/VIVADO_DOCS/official_docs",
     ]
     
     def __init__(self, db_path="./vivado_vectordb_full"):

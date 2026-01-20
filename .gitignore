@@ -60,3 +60,7 @@ vivado*.backup.*
 *.tmp
 *.swp
 *~
+vivado-examples/Vivado-Design-Tutorials-2025.2/General/Revision_Control/Check_In_Generated_Outputs/sources/vivado_prj_xci_bd/vivado_prj_xci_bd.gen/sources_1/bd/design_1/ip/design_1_axi_dbg_hub_0_0/axi_dbg_hub_v2_0_axi_dbg_hub.txt
+vivado-examples/Vivado-Design-Tutorials-2025.2/General/Revision_Control/Check_In_Generated_Outputs/sources/vivado_prj_xci_bd/
+vivado-examples/Vivado-Design-Tutorials-2025.2/General/Revision_Control/Check_In_Generated_Outputs/sources/vivado_prj_xci_bd/
+vivado-examples/Vivado-Design-Tutorials-2025.2/

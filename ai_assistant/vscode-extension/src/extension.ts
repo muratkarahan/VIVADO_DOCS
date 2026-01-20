@@ -98,35 +98,49 @@ async function chatHandler(
  * Query RAG system
  */
 async function queryRAGSystem(query: string, command?: string): Promise<string> {
-    // This is a placeholder - actual implementation would:
-    // 1. Send query to Python RAG server (vivado_mcp_server.py)
-    // 2. Get response with context from ChromaDB
-    // 3. Format and return response
-    
-    // For now, return a template response
-    return `**Vivado Expert Yanıtı:**
-
-Bu özellik şu anda geliştirilmektedir. RAG server'ı başlatmak için:
-
-\`\`\`powershell
-cd ai_assistant
-python vivado_agent.py
-\`\`\`
-
-**Aradığınız:** ${query}
-**Komut:** ${command || 'genel'}
-
-**Beklenen yanıt:**
-- ChromaDB'den ilgili Vivado dökümanları (UG/PG)
-- GPT-4 ile oluşturulmuş context-aware yanıt
-- Kod örnekleri (Verilog/VHDL/TCL/C)
-- Kaynak referansları
-
-**Geliştirme Durumu:**
-- ✅ Extension yapısı hazır
-- ✅ Chat participant aktif
-- ⏳ RAG backend entegrasyonu devam ediyor
-- ⏳ MCP server bağlantısı geliştirilecek`;
+    try {
+        // MCP server'a HTTP request gönder
+        const axios = require('axios');
+        const serverUrl = 'http://localhost:5000/query';
+        
+        const response = await axios.post(serverUrl, {
+            query: query,
+            command: command,
+            n_results: 5
+        }, {
+            timeout: 30000 // 30 saniye timeout
+        });
+        
+        if (response.data.success) {
+            // Başarılı yanıt
+            let result = `**Vivado Expert Yanıtı:**\n\n${response.data.answer}\n\n`;
+            
+            // Kaynakları ekle
+            if (response.data.contexts && response.data.contexts.length > 0) {
+                result += `---\n\n**📚 Kaynaklar:**\n`;
+                response.data.contexts.slice(0, 3).forEach((ctx: any, i: number) => {
+                    result += `${i + 1}. ${ctx.file} (uygunluk: ${(ctx.relevance * 100).toFixed(1)}%)\n`;
+                });
+            }
+            
+            // Token kullanımı
+            if (response.data.tokens) {
+                result += `\n*Token kullanımı: ${response.data.tokens}*`;
+            }
+            
+            return result;
+        } else {
+            return `❌ **Hata:** ${response.data.error || 'Bilinmeyen hata'}`;
+        }
+        
+    } catch (error: any) {
+        // Server bağlantı hatası
+        if (error.code === 'ECONNREFUSED') {
+            return `❌ **MCP Server'a bağlanılamıyor!**\n\nLütfen server'ı başlatın:\n\n\`\`\`powershell\ncd ai_assistant\npython vivado_mcp_server.py\n\`\`\`\n\nServer çalışıyor mu kontrol edin: http://localhost:5000/health`;
+        }
+        
+        return `❌ **Hata:** ${error.message}`;
+    }
 }
 
 /**

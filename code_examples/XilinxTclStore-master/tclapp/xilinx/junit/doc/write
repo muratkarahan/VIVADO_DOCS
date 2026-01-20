@@ -1,0 +1,6 @@
+
+Example:
+    
+  # creates and adds node
+  ::xilinx::junit::write $content "report.xml"
+

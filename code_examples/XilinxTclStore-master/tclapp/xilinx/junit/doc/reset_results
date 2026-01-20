@@ -1,0 +1,6 @@
+
+Example:
+    
+  # resets the in-memory results
+  ::xilinx::junit::reset_results
+
