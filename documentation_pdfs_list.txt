@@ -1,0 +1,11 @@
+C:\Xilinx\2025.1\data\ip\xilinx\pci32_v5_0\doc\pci_32_ds206.pdf
+C:\Xilinx\2025.1\data\ip\xilinx\pci64_v5_0\doc\pci_64_ds205.pdf
+C:\Xilinx\2025.1\tps\win64\python-3.13.0\Doc\library\turtle-star.pdf
+C:\Xilinx\2025.1\Vivado\ids_lite\ISE\coregen\ip\xilinx\other\com\xilinx\ip\mig_7series_v1_7\data\docs\redirect\ds176_7Series_MIS.pdf
+C:\Xilinx\2025.1\Vivado\ids_lite\ISE\coregen\ip\xilinx\other\com\xilinx\ip\mig_7series_v1_7\data\docs\redirect\ug586_7Series_MIS.pdf
+C:\Xilinx\2025.1\Vivado\ids_lite\ISE\coregen\ip\xilinx\other\com\xilinx\ip\mig_7series_v1_8\data\docs\redirect\ds176_7Series_MIS.pdf
+C:\Xilinx\2025.1\Vivado\ids_lite\ISE\coregen\ip\xilinx\other\com\xilinx\ip\mig_7series_v1_8\data\docs\redirect\ug586_7Series_MIS.pdf
+C:\Xilinx\2025.1\Vivado\ids_lite\ISE\coregen\ip\xilinx\other\com\xilinx\ip\mig_7series_v1_9\data\docs\redirect\ds176_7Series_MIS.pdf
+C:\Xilinx\2025.1\Vivado\ids_lite\ISE\coregen\ip\xilinx\other\com\xilinx\ip\mig_7series_v1_9\data\docs\redirect\ug586_7Series_MIS.pdf
+C:\Xilinx\2025.1\Vivado\ids_lite\ISE\coregen\ip\xilinx\other\com\xilinx\ip\mig_7series_v2_0\data\docs\redirect\ds176_7Series_MIS.pdf
+C:\Xilinx\2025.1\Vivado\ids_lite\ISE\coregen\ip\xilinx\other\com\xilinx\ip\mig_7series_v2_0\data\docs\redirect\ug586_7Series_MIS.pdf

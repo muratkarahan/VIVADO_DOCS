@@ -1,0 +1,2 @@
+C:\Xilinx\2025.1\data\ip\xilinx\pci32_v5_0\doc\pci_32_ds206.pdf
+C:\Xilinx\2025.1\data\ip\xilinx\pci64_v5_0\doc\pci_64_ds205.pdf
